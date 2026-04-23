@@ -1,17 +1,17 @@
-# GATE — Governed Agent Trust Environment
+# GATE - Governed Agent Trust Environment
 
 **A cloud reference framework of controls for enterprise-grade trustworthy AI agents.**
 
 Version: 1.2.8  
 Site: https://deterministicagents.ai  
-License: CC BY 4.0 — Andrew Stevens
+Documentation: CC BY 4.0 — Andrew Stevens · Code: MIT
 
 ---
 
 ## What is GATE?
 
-Agentic AI systems — software that plans, retrieves context, and executes
-actions with minimal human intervention — introduce a risk profile that
+Agentic AI systems - software that plans, retrieves context, and executes
+actions with minimal human intervention - introduce a risk profile that
 existing enterprise security and governance frameworks were not designed for.
 Models are probabilistic, susceptible to adversarial manipulation, and capable
 of taking real-world actions at machine speed.
@@ -60,7 +60,7 @@ Each component is a separate versioned repository. Clone what you need.
 
 | Repo | Version | What it is |
 |---|---|---|
-| [gate-contracts](https://github.com/deterministic-agents/gate-contracts) | v1.0.0 | JSON Schema contracts for all GATE control plane events. The canonical dependency — start here. |
+| [gate-contracts](https://github.com/deterministic-agents/gate-contracts) | v1.0.0 | JSON Schema contracts for all GATE control plane events. The canonical dependency - start here. |
 | [gate-python](https://github.com/deterministic-agents/gate-python) | v1.0.0 | Python reference library: hashing, envelopes, ledger, replay, signing, schema validation. |
 | [gate-policies](https://github.com/deterministic-agents/gate-policies) | v1.0.0 | OPA/Rego baseline policy bundle, invariant bundle (C09), unit tests, ABOM templates. |
 | [gate-conformance](https://github.com/deterministic-agents/gate-conformance) | v1.0.0 | 15 conformance checks, self-assessment template, evidence SQL queries, 6 operational runbooks. |
@@ -105,15 +105,15 @@ implements. GATE is the engineering companion to the Blueprint.
 
 GATE is designed to be adopted in phases. Don't try everything at once.
 
-**Phase 1 — Establish the execution boundary** (minimum viable control plane)  
+**Phase 1 - Establish the execution boundary** (minimum viable control plane)  
 C01 · C03 · C05 · C06 · C07 · C08 (baseline) · C11  
 Exit criteria: zero tool calls without a policy decision record; zero bypass paths.
 
-**Phase 2 — Make incidents reproducible and defensible**  
+**Phase 2 - Make incidents reproducible and defensible**  
 Add: C08 (full depth) · C10 · C12 · C13  
 Exit criteria: replay reproduces high-impact runs; signed-action coverage at target.
 
-**Phase 3 — Govern distributed and multi-agent autonomy**  
+**Phase 3 - Govern distributed and multi-agent autonomy**  
 Add: C14 · C15 · C16  
 Exit criteria: multi-agent messages validated; safe rollout enforced.
 
@@ -137,7 +137,7 @@ Release notes for each version are in the [Releases](https://github.com/determin
 
 ## Changelog
 
-**v1.2.8** — Renamed from DARE to GATE (Governed Agent Trust Environment).
+**v1.2.8** - Renamed from DARE to GATE (Governed Agent Trust Environment).
 C09 rewritten as Execution Constraints and Invariant Enforcement with
 hardened invariant bundle, break-glass override semantics, and approval
 fatigue failure mode. C08 split across Phase 1 (deterministic controls)
@@ -150,7 +150,7 @@ parity improved.
 
 ## License
 
-Documentation and schemas: CC BY 4.0 — Andrew Stevens  
-Code (gate-python): CC BY 4.0 — Andrew Stevens  
-Required attribution: "Governed Agent Trust Environment (GATE)" by Andrew Stevens,
-licensed under CC BY 4.0. Source: deterministicagents.ai
+Documentation, schemas, and policies: CC BY 4.0 — Andrew Stevens  
+Code (gate-python): MIT  
+Required attribution for CC content: "Governed Agent Trust Environment (GATE)"  
+by Andrew Stevens, licensed under CC BY 4.0. Source: deterministicagents.ai
