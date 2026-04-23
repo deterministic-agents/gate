@@ -41,7 +41,7 @@ The canonical reference for the framework. Includes the threat model,
 control plane contracts overview, cloud quickstarts (AWS/Azure/GCP), and
 standard mappings to NIST AI RMF and ISO/IEC 42001.
 
-**[Download GATE v1.2.8 (PDF)](https://github.com/deterministic-agents/gate/releases/download/v1.2.8/Governed%20Agent%20Trust%20Environment%20(GATE)%20v1.2.8.pdf)**
+**[Download GATE v1.2.8 (PDF)](https://assets.whitepaper.download/72e8c6f1-3eda-49dd-89f5-553ad796a207/Governed%20Agent%20Trust%20Environment%20(GATE)%20v1.2.8.pdf)**
 
 SHA-256: `7b10a35831d018da2032642a9bd396ce20d816a09ac9121d9eec74a2332ca8db`
 
