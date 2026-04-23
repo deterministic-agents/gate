@@ -151,6 +151,6 @@ parity improved.
 ## License
 
 Documentation, schemas, and policies: CC BY 4.0 — Andrew Stevens  
-Code (gate-python): MIT  
+Code (gate): MIT  
 Required attribution for CC content: "Governed Agent Trust Environment (GATE)"  
 by Andrew Stevens, licensed under CC BY 4.0. Source: deterministicagents.ai
