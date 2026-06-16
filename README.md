@@ -43,7 +43,7 @@ standard mappings to NIST AI RMF and ISO/IEC 42001.
 
 **[Download GATE v1.3 (PDF)](https://assets.whitepaper.download/gate/v1.3/a262eccc-8196-481c-bd83-14b018b2a1d4/Governed%20Agent%20Trust%20Environment%20(GATE)%20v1.3.pdf)**
 
-SHA-256: `5439f8c2090e188c94780440e5bcf0fd6daf91f0116e0331dc9271372e9cac48`
+SHA-256: `8a31d97577b957cc3de18b213fd0b13ba739570ee12d7d5f69da222776ecd186`
 
 ### Artifacts bundle
 
