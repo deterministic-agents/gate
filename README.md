@@ -50,9 +50,9 @@ SHA-256: `8a31d97577b957cc3de18b213fd0b13ba739570ee12d7d5f69da222776ecd186`
 Everything in one zip: schemas, Rego policies, ABOM templates, conformance
 checks, SQL queries, operational runbooks, and the Python reference library.
 
-**[Download GATE-artifacts-v1.1.zip](https://github.com/deterministic-agents/gate/releases/download/v1.3/GATE-artifacts-v1.1.zip)**
+**[Download GATE-artifacts-v1.2.zip](https://github.com/deterministic-agents/gate/releases/download/v1.3/GATE-artifacts-v1.2.zip)**
 
-SHA-256: `d80104ea3218d8e2943e32fb7465cc5f6600548e9e6c7817d51106a52c1a5d6b`
+SHA-256: `d29627ccffbaf11a2fea26f37fdf11aa50f57134c17324900c818b45f7c995ea`
 
 ---
 
@@ -62,10 +62,10 @@ Each component is a separate versioned repository. Clone what you need.
 
 | Repository | Version | Purpose |
 |---|---|---|
-| [gate-contracts](https://github.com/deterministic-agents/gate-contracts) | v1.1.0 | JSON Schema contracts for all GATE control plane events. The canonical dependency - start here. |
+| [gate-contracts](https://github.com/deterministic-agents/gate-contracts) | v1.1.1 | JSON Schema contracts for all GATE control plane events. The canonical dependency - start here. |
 | [gate-python](https://github.com/deterministic-agents/gate-python) | v1.1.0 | Python reference library: hashing, envelopes, ledger, replay, signing, schema validation, plus v1.3 discovery / memory.quality / assurance.behaviour modules. |
-| [gate-policies](https://github.com/deterministic-agents/gate-policies) | v1.1.0 | OPA/Rego baseline policy bundle, invariant bundle (C09), unit tests, ABOM templates, plus v1.3 c17 / c18 / c19 policies. |
-| [gate-conformance](https://github.com/deterministic-agents/gate-conformance) | v1.1.0 | 19 conformance checks, self-assessment template, evidence SQL queries, 9 operational runbooks. |
+| [gate-policies](https://github.com/deterministic-agents/gate-policies) | v1.1.1 | OPA/Rego baseline policy bundle, invariant bundle (C09), unit tests, ABOM templates, plus v1.3 c17 / c18 / c19 policies. |
+| [gate-conformance](https://github.com/deterministic-agents/gate-conformance) | v1.2.0 | 19 conformance checks plus the conformance runner. Automates 9 checks against your evidence store. Self-assessment template, evidence SQL queries, 9 operational runbooks. |
 
 ---
 
@@ -75,10 +75,10 @@ Each component is a separate versioned repository. Clone what you need.
 |---|---|---|
 | Framework paper (PDF) | v1.3 | Current release |
 | HTML spec | v1.1 | C17/C18/C19 entries, Check16-19 must-pass summary, portrait diagrams |
-| gate-contracts | v1.1.0 | Six new event schemas; five new resource schemas |
+| gate-contracts | v1.1.1 | Six new event schemas; five new resource schemas (v1.1.1 is README cleanup) |
 | gate-python | v1.1.0 | gate.discovery, gate.memory.quality, gate.assurance.behaviour |
-| gate-policies | v1.1.0 | c17_discovery, c18_quality, c19_drift_response (new files only) |
-| gate-conformance | v1.1.0 | Check16-Check19; 7 v1.3 queries; RB-07/08/09 |
+| gate-policies | v1.1.1 | c17_discovery, c18_quality, c19_drift_response (v1.1.1 is README cleanup) |
+| gate-conformance | v1.2.0 | Check16-Check19, 7 v1.3 queries, RB-07/08/09, plus the conformance runner CLI |
 
 The framework paper version is independent of the implementation repo versions.
 Release notes for each version are in the [Releases](https://github.com/deterministic-agents/gate/releases) tab.
@@ -86,6 +86,14 @@ Release notes for each version are in the [Releases](https://github.com/determin
 ---
 
 ## Changelog
+
+**v1.3.1** (2026-06-16) - Implementation repo Releases complete.
+Conformance runner shipped in gate-conformance v1.2.0
+(`python -m runner.cli`). Patch releases on gate-contracts (v1.1.1)
+and gate-policies (v1.1.1) clean up README staging artefacts; schema
+and policy content unchanged from v1.1.0. Artifacts bundle rebuilt as
+GATE-artifacts-v1.2.zip with the v1.2.0 conformance runner included.
+No framework-paper changes.
 
 **v1.3** - Three new controls extending GATE's scope to cover assumptions that
 v1.2.8 left implicit. C17 Agent Discovery and Shadow AI Detection (Layer 1):
