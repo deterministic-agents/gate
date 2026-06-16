@@ -52,7 +52,7 @@ checks, SQL queries, operational runbooks, and the Python reference library.
 
 **[Download GATE-artifacts-v1.1.zip](https://github.com/deterministic-agents/gate/releases/download/v1.3/GATE-artifacts-v1.1.zip)**
 
-SHA-256: PENDING (computed at release build time)
+SHA-256: `d80104ea3218d8e2943e32fb7465cc5f6600548e9e6c7817d51106a52c1a5d6b`
 
 ---
 
