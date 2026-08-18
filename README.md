@@ -46,7 +46,7 @@ and NIST SSDF.
 
 The HTML specification at [deterministicagents.ai](https://deterministicagents.ai/) and a single-file markdown export (`GATE-v1.4.md`, attached to the v1.4 release) carry the same content.
 
-SHA-256: `faac8bc065c140aa1c92e54c5627db8c26299497f141574de6ef630e6c5c8d5f`
+SHA-256: `a6719e946a166e4b9cae7a7de1ebb001ed190ab18ebd6cb2340ebe77d463f2a8`
 
 ### Artifacts bundle
 
@@ -55,7 +55,7 @@ checks, SQL queries, operational runbooks, and the Python reference library.
 
 **[Download GATE-artifacts-v1.4.zip](https://github.com/deterministic-agents/gate/releases/download/v1.4/GATE-artifacts-v1.4.zip)**
 
-SHA-256: `40af0f19a8ef2b14a6874e3f8d0985f3eb377e64520d1859bd6407368ad77962`
+SHA-256: `ece601f4d674f5daecc1303c701573b3fd7302a71da6a72d2e61d4d0e73a4714`
 
 ---
 
